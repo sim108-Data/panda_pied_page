@@ -29,7 +29,7 @@ description:           >
   learning Data science.
 
 # A shorter description for the sidebar.
-tagline:               A story where the reader go through all the discovery made by three students of EPFL 
+tagline:               A story where the reader goes through all the discoveries made by three students at EPFL 
   learning Data science.
 
 # A list of keywords for your blog
@@ -38,26 +38,28 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo1.png
+logo:                  /assets/img/logo2.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
-author:
+author1:
   # Used by `jekyll-feed`:
   name:                <Simon> <Dayer>
-  email:               <simon.dayer@epfl.ch>
+  email:               <mail@domain.tld>
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
-
 # Add links to the sidebar.
 menu:
   - title:             Where it started?
     url:               https://drive.google.com/file/d/1r94_60ajzd9feLF6W1dTVQ6xYC6FYuwP/view?usp=sharing
   - title:             Our travel through datas
-    url:               /docs/
-  - title:             The result
-    url:               /example/
-  - title:             About
-    url:               /about/
+    url:               index 
+  - title:             Gowalla datas 
+    url:               https://snap.stanford.edu/data/loc-Gowalla.html
+  - title:             Brightkite datas 
+    url:               https://snap.stanford.edu/data/loc-Brightkite.html   
+   
+  - title:             About us
+    url:               about
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -66,8 +68,8 @@ menu:
 copyright:             © 2020. All rights reserved.
 
 # Format of the permalinks
-permalink:             /:categories/:year-:month-:day-:title/
-
+#permalink:             /:categories/:year-:month-:day-:title/
+permalink:             none
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
 paginate_path:         /:num/
@@ -79,7 +81,7 @@ paginate_path:         /:num/
 collections:
   featured_categories:
     permalink:         /:name/
-    output:            true
+    output:            false
 
   featured_tags:
     permalink:         /tag-:name/
@@ -93,16 +95,16 @@ collections:
 # Theme
 # ---------------------------------------------------------------------------------------
 
-theme: jekyll-theme-hydejack
-# remote_theme: hydecorp/hydejack@v9.0.0-rc.6
+#theme: jekyll-theme-hydejack
+remote_theme: hydecorp/hydejack@v9
 
 
 # Customizaton
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/blog/caleb-george.jpg
-accent_color:          rgb(79,177,186)
+accent_image:          /assets/img/blog/DJI_0380.jpg
+accent_color:          rgb(3,3,3)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
