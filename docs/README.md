@@ -16,6 +16,7 @@ Did you ever sit a minute and start thinking about how the world keeps moving an
 nothing can stop it?
 
  **Scary, isn't it?** 
+ 
 {:.note}
 
 Movement has raised the interest of many authors for centuries. For instance, Sapiens, a book by Yuval Noah Harari traces the development
@@ -58,6 +59,7 @@ again to restrict our dataset to only the United States for our analysis.
 
 Then, let's zoom a bit on our chosen country to understand how user's are distributed 
 and clustered between cities.
+
 
 {%include testhouse-of-user2.html%}{:.lead width="800" height="500" loading="lazy"}
 
